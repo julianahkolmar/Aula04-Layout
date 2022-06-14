@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head><!-- cabeçalho do arquivo html -->
+		<title>Aula 04</title>
+		<meta charset="utf-8">
+		<meta name="autor" content="Juliana Kolmar">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<!-- tags meta para motores de busca - SEO -->
+		<meta name="keywords" content="html, css">
+		<meta name="description" content="Layout HTML">
+		<!-- estilo CSS -->
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+		<header>
+			<h1>Layout HTML</h1>
+		</header>
+		<nav>	
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Conteúdo</a>
+				</li>
+				<li>
+					<a href="#">Galeria</a>
+				</li>
+				<li>
+					<a href="#">Contato</a>
+				</li>
+			</ul>
+		
+		</nav>
+		<div class="container">
+			<div class="esquerda">
+				<h2>Sobre:</h2>
+				<p>Aluna de Graduação no curso de Análise e Desenvolvimento de Sistemas pela Unisinos. 
+
+					Sou aprendiz de tecnologia na empresa Warren Brasil, em Porto Alegre. Estou cursando "Aprendizagem profissional de qualificação em programação de sistemas com aplicações financeiras", pelo Senac Tech - RS.
+
+					Possuo formação técnica em Produção de Áudio e Vídeo integrado ao ensino médio, pelo Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Alvorada. Sou ex-bolsista de iniciação científica (fomento interno IFRS e CNPq).</p>
+					
+					<h2>Histórico</h2>
+					<p>Aluna de Graduação no curso de Análise e Desenvolvimento de Sistemas pela Unisinos. </p>
+					<div class="imgFake" style="height: 200px;">Imagem 1
+					</div>
+					<div class="imgFake" style="height: 200px;">Imagem 2
+					</div>
+					<div class="imgFake" style="height: 200px;">Imagem 3
+					</div>
+			</div>
+			<div class="conteudo">
+				<h2>Conteúdo da Página</h2>
+				<h5>
+					<script>
+					<!-- JS para pegar a data atual -->
+					date = new Date().toLocaleDateString();
+					document.write(date);
+					</script>
+				</h5>
+				<div class="imgFake" style="height:200px">
+					Imagem 4
+				</div>
+				<p>Michael Corleone</p>
+				<p>Fredo, you're my older brother, and I love you. But don't ever take sides with anyone against the Family again. Ever.
+					Fredo, you're my older brother, and I love you. But don't ever take sides with anyone against the Family again. Ever.
+					Fredo, you're my older brother, and I love you. But don't ever take sides with anyone against the Family again. Ever.</p>
+				<picture>
+					<source media="(min-width: 600px)" 
+					srcset="./imagens/imgMedia.jpg" width="600px"/>
+					<source media="(min-width: 465px)" 
+					srcset="./imagens/imgPequena.jpg"/>
+					<img src="./imagens/caminho.jpg" alt="Caminho entre arvóres" style="max-width: 100%; height: auto;"/>
+				</picture>
+				<br/>
+				<h2>Subtítulo ...</h2>
+				<h5>13/06/2022</h5>
+				<p>Michael</p>
+				<p>Fredo, you're my older brother, and I love you. But don't ever take sides with anyone against the Family again. Ever.
+					Fredo, you're my older brother, and I love you. But don't ever take sides with anyone against the Family again. Ever.
+					Fredo, you're my older brother, and I love you. But don't ever take sides with anyone against the Family again. Ever.</p>
+			</div>
+		</div>
+		<div class="footer">
+			<h2>Footer</h2>
+			</br>
+			&copy; Todos os direitos reservados. Juliana Kolmar.
+		</div>
+	
+	</body>
+	
+</html>
