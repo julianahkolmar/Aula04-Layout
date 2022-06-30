@@ -14,7 +14,7 @@
      text-decoration: none;
 }
  nav a:hover {
-     color: #1abc9c;
+     color: #91C788;
      font-size: 20px;
 }
  nav ul{
@@ -41,7 +41,7 @@
  header{
      padding: 60px;
      text-align: center;
-     background-color: #1abc9c;
+     background-color: #91C788;
      color: white;
 }
  .container {
@@ -74,7 +74,7 @@
          flex-direction: column;
     }
      header{
-         background-color: #1abc9c;
+         background-color: #91C788;
     }
      .label, .input, input[type=submit], input[type=reset] {
          width: 100%;
