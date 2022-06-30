@@ -94,7 +94,7 @@
                         <label>Telefone:</label>
                     </div>
                     <div class="input">
-                        <input type="text" id="telefone" name="telefone" oninput="mascaraTel(this)"/>
+                        <input type="text" id="telefone" name="telefone" oninput="mascaraTel(this)" />
                     </div>
                 </div>
                 <div class="row">
@@ -111,7 +111,7 @@
                     </div>
                     <div class="input">
                         <input type="radio" id="tpCPF" name="tpPessoa"
-                            onclick="document.getElementById('divCNPJ').style.visibility='hidden';document.getElementById('divCPF').style.visibility='visible'"/>CPF
+                            onclick="document.getElementById('divCNPJ').style.visibility='hidden';document.getElementById('divCPF').style.visibility='visible'" />CPF
                         <input type="radio" id="tpCNPJ" name="tpPessoa"
                             onclick="document.getElementById('divCNPJ').style.visibility='visible';document.getElementById('divCPF').style.visibility='hidden'" />CNPJ
                     </div>
@@ -129,7 +129,7 @@
                         <label>CNPJ:</label>
                     </div>
                     <div class="input">
-                        <input type="text" id="cnpj" name="cnpj" oninput="mascaraCNPJ(this)"/>
+                        <input type="text" id="cnpj" name="cnpj" oninput="mascaraCNPJ(this)" />
                     </div>
                 </div>
                 <div class="row">
@@ -172,7 +172,8 @@
         &copy; Todos os direitos reservados. Juliana Kolmar
     </div>
     <Script>
-        document.getElementById("imgUser") .addEventListener("change", lerImg, false);
+        document.getElementById("imgUser").addEventListener("change", lerImg, false);
     </Script>
 </body>
+
 </html>
